@@ -174,7 +174,7 @@ fun Drag() {
                 offset2.x.toInt()+width, offset2.y.toInt()+height)
 
             if(r1.intersect(r2)) {
-                Text(text = "碰撞")
+                Text(text = "碰撞1")
             }
             else{
                 Text(text = "")
